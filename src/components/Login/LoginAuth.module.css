@@ -1,0 +1,43 @@
+.main_div {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub_div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    width: 100%;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 700;
+    color: #6feeb7;
+}
+
+.input {
+    margin: 5px !important;
+}
+
+.button {
+    background-color: #6feeb7;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 0px solid #fff;
+    cursor: pointer;
+}
