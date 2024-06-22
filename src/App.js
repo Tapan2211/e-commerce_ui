@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Route, Routes, useNavigate, Navigate } from 'r
 
 import Login from './components/Login/LoginAuth';
 import Registration from './components/registration/Registration';
+import Category from './components/Category/category';
+import Product from './components/Product/Product';
 import Dashboard from './components/dashboard/Dashboard';
 import Sidebar from './components/Sidebar/sidebar';
 import About from './components/About_us/about';
@@ -26,6 +28,8 @@ function App() {
       <Routes>
         <Route path="/" element={isAuthenticated() ? <Navigate to='/dashboard' /> : <Login />} />
         <Route path="/register" element={<Registration />} />
+        <Route path="/category" element={<Category />} />
+        <Route path="/product" element={<Product />} />
         <Route path='/dashboard' element={<Dashboard />} />
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />

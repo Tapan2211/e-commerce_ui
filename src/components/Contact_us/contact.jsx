@@ -1,5 +1,5 @@
 import React from "react";
-import Sidebar from "../Sidebar/sidebar";
+import Sidebar from "../Sidebar/pro_sidebar";
 
 function contact() {
     return (
